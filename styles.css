@@ -1,0 +1,44 @@
+.image-preview {
+    text-align: center;
+}
+
+.image-preview img {
+    width: 200px;
+    height: auto;
+    border-top: 30px solid skyblue;
+    border-right: 30px solid lightpink;
+    border-bottom: 30px solid lightgreen;
+    border-left: 30px solid #ffefd5;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    display: block;
+    margin: 0 auto;
+}
+
+p>span {
+    color: red;
+}
+
+#header span {
+    color: pink;
+}
+
+span {
+    color: green;
+}
+
+#header *:last-child {
+    color: orange;
+}
+
+#header span:first-child:hover {
+    color: blue;
+}
+
+table * {
+    border: 1px solid black;
+}
+
+table td, th {
+    padding: 20px;
+}
